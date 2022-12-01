@@ -3,7 +3,7 @@ bool primo(int a, int c)
 {
     if (a==0||a==1)
     {
-        return true;
+        return false;
     }
     else if(a%c==0){
         return a==c;
